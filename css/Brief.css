@@ -1,0 +1,120 @@
+ 
+.navbar li a{
+    line-height: 30px;
+    margin: 8px 10px;
+   
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+ 
+.home-caption button ,.contact button {
+    border-color: rgb(0,168,176) !important ;
+background-color: rgb(0,168,176) !important  ;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+}
+ 
+ 
+
+
+.navbar-brand img{
+    width: 40%;
+}
+
+.breif-caption  {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Portfolio-contant .layer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    background-color: black;
+    transition:all 1s ;
+    -webkit-transition:all 1s ;
+    -moz-transition:all 1s ;
+    -ms-transition:all 1s ;
+    -o-transition:all 1s ;
+ }
+ .source_img{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+ 
+ .source_img:hover{
+    transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+}
+ 
+ 
+ .Portfolio-contant:hover .layer{
+    
+     opacity: 1;
+     
+ }
+ .contactUs{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.title{
+font-size: 70px;
+      background: rgb(135,40,158);
+        background: linear-gradient(90deg, rgba(135,40,158,1) 29%, rgba(35,178,216,1) 55%, rgba(55,216,106,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.contactUs button:hover {
+    background-color: rgb(0,168,176) !important;
+   
+}
+.contactUs img{
+    width: 20%;
+}
+.contactUs button{
+    border-color: rgb(0,168,176) !important ;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+}
+.social-icon li {
+    margin: 5px;
+    list-style:none;
+    border:1px solid black ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: black;
+
+
+}
+  .social-icon li a {
+    color: white;
+}
